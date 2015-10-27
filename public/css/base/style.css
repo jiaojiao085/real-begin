@@ -1,0 +1,61 @@
+/******************
+**公用的一些样式放在这里
+*******************/
+
+.inline_block{
+    display:inline-block;
+    /*fix inline-block bug in ie7*/
+    *display:inline;
+    zoom:1;
+}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after { clear:both;}
+.clearfix {zoom:1;}
+.clear { clear:both; zoom:1; }
+
+.fl{float: left;}
+.fr{float: right;}
+
+.auto{
+    width: auto;
+    height: auto;
+}
+
+.hide {
+    display: none !important;
+}
+.block {
+    display: block !important;
+}
+
+/*字体大小*/
+.f16{font-size:16px;}
+.f14{font-size:14px;}
+.f12{font-size:12px;}
+
+/**文字截断**/
+.text-break {
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+/**文字截断出省略号**/
+.text-break-ell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.align-center{
+    text-align: center;
+}
+/***背景***/
+.bgGray{
+    background-color:#f2f2f2;
+}
+.bgWhite{background-color:#fff;}

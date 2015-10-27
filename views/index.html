@@ -2,8 +2,32 @@
 <html>
 <head>
 	<title>index page</title>
+	<link rel="stylesheet" type="text/css" href="/public/css/base/layout.css">
+	<link rel="stylesheet" type="text/css" href="/public/css/base/style.css">
+	<style type="text/css">
+	.wd-radio span{
+		display: inline-block;;
+		height:30px;
+		line-height: 30px;
+		padding:0 6px;
+		border:1px solid #ddd;
+		margin-right:6px;
+	}
+	.wd-radio span.checked{
+		border-color:#368ee0;
+	}
+	</style>
 </head>
 <body>
 i am the index page.嘻嘻哈哈
+<div>
+	请选择：
+	<div class="wd-radio" for="#hidTest">
+		<span>选项1</span>
+		<span>选项2</span>
+		<span>选项3</span>
+	</div>
+	<input type="hidden" id="hidTest" value=""/>
+</div>
 </body>
 </html>
