@@ -19,3 +19,7 @@ app.use('/public',express.static(path.join(__dirname, 'public')));
 app.use('/share',express.static(path.join(__dirname, 'share')));
 
 app.listen(3000);
+
+
+
+
